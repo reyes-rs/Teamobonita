@@ -81,3 +81,26 @@ button:hover {
   min-height: 250px;
   animation: fadeIn 3s ease-in-out;
 }
+.contenedor {
+  padding: 2em;
+  background: linear-gradient(to right, #ffe4ec, #ffe9f0);
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.2);
+  max-width: 750px;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 5em; /* Esto separa del segundo compartimento */
+  text-align: center;
+}
+
+.contenedor h1 {
+  font-size: 2em;
+  color: #ff4d79;
+  margin-bottom: 0.5em;
+}
+
+.contenedor p {
+  font-size: 1.2em;
+  color: #444;
+  line-height: 1.8;
+}
